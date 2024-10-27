@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "1fe337658129b6c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "223221a88c09d911",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55e58b14ba332554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024_10_1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d2b4d8c0986ad258",
+    "type": "split",
+    "children": [
+      {
+        "id": "d295a35b9e0c36ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d92d79d3409cb6d1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "13361b041dd5d23c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": " ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ca349cac997d64b5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "50993fc067c4e2cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "63348ca9ce8514ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41a0af7e6d713c97",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2024_10_1"
+            }
+          },
+          {
+            "id": "d6f01d63a68e307d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2024_10_1"
+            }
+          },
+          {
+            "id": "8cc81f636909e441",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ef084cbfd4f01cb5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_1.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2024_10_1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d92d79d3409cb6d1",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_1.md",
+    "Maß- und Wahrscheinlichkeitstheorie/Untitled.md",
+    "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2",
+    "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 1",
+    "Analysis/Maß- und Wahrscheinlichkeitstheorie 2/1.10.2024.md",
+    "Maß- und Wahrscheinlichkeitstheorie",
+    "Analysis/Maß- und Wahrscheinlichkeitstheorie 2"
+  ]
+}
