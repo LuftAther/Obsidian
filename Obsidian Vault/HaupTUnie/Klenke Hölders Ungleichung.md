@@ -1,0 +1,4 @@
+Sei $p, q \in [1, \infty]$ mit $\frac{1}{p} + \frac{1}{q} = 1$ und $f \in L^p(\mu)$, $g \in L^q(\mu)$. Dann gilt $(fg) \in L^1(\mu)$ und $$ \|fg\|_1 \leq \|f\|_p \cdot \|g\|_q. $$
+### Beweis
+
+Die Fälle $p = 1$ und $p = \infty$ sind trivial. Sei also nun $p \in (1, \infty)$ und $f \in L^p(\mu)$ und $g \in L^q(\mu)$ nicht fast überall Null. Indem wir zu $\frac{f}{\|f\|_p}$ und $\frac{g}{\|g\|_q}$ übergehen, können wir $\|f\|_p = \|g\|_q = 1$ annehmen. Nach Lemma 7.15 ist $$\|fg\|_1 = \int |f| \cdot |g| \,d\mu \leq \frac{1}{p} \int |f|^p \,d\mu + \frac{1}{q} \int |g|^q \,d\mu = \frac{1}{p} + \frac{1}{q} = 1 = \|f\|_p \cdot \|g\|_q$$
