@@ -1,0 +1,12 @@
+Seien $f, g, f_1, f_2, \ldots$ messbare Abbildungen $\Omega \to [0, \infty]$. Dann gilt 
+
+- (i) *(Monotonie)* Ist $f \leq g$, dann ist $\int f \, d\mu \leq \int g \, d\mu$. 
+
+- (ii) *(Monotone Konvergenz)* Gilt $f_n \uparrow f$, dann konvergieren auch die Integrale $\int f_n \, d\mu \uparrow \int f \, d\mu$. 
+- (iii) *(Linearität)* Sind $\alpha, \beta \in [0, \infty]$, so gilt $$ \int (\alpha f + \beta g) \, d\mu = \alpha \int f \, d\mu + \beta \int g \, d\mu, $$ wobei wir die Konvention $\infty \cdot 0 := 0$ benutzen. 
+ 
+# Beweis
+-  *(i)* Dies folgt direkt aus der Definition des Integrals.
+-  *(ii)* Nach (i) gilt $$ \lim_{n \to \infty} \int f_n \, d\mu = \sup_{n \in \mathbb{N}} \int f_n \, d\mu \leq \int f \, d\mu. $$ Wir müssen also nur noch $\int f \, d\mu \leq \sup_{n \in \mathbb{N}} \int f_n \, d\mu$ zeigen. Sei $g \in E_+$ mit $g \leq f$. Es reicht zu zeigen, dass $$ \sup_{n \in \mathbb{N}} \int f_n \, d\mu \geq \int g \, d\mu. \tag{4.2} $$ Die Elementarfunktion $g$ habe die Normaldarstellung $g = \sum_{i=1}^N \alpha_i 1_{A_i}$, wobei $\alpha_1, \ldots, \alpha_N \in (0, \infty)$ sind und $A_1, \ldots, A_N \in \mathcal{A}$ paarweise disjunkt sind. Für jedes $\varepsilon > 0$ und $n \in \mathbb{N}$ definieren wir die Menge $$ B_\varepsilon^n = \{f_n \geq (1 - \varepsilon) g\}. $$ Wegen $f_n \uparrow f \geq g$ gilt $B_\varepsilon^n \uparrow \Omega$ für jedes $\varepsilon > 0$. Also gilt nach (i) für $\varepsilon > 0$ $$ \int f_n \, d\mu \geq \int ((1 - \varepsilon) g \cdot 1_{B_\varepsilon^n}) \, d\mu = \sum_{i=1}^N (1 - \varepsilon) \alpha_i \mu(A_i \cap B_\varepsilon^n) \to \sum_{i=1}^N (1 - \varepsilon) \alpha_i \mu(A_i) = (1 - \varepsilon) \int g \, d\mu $$ für $n \to \infty$. Da $\varepsilon > 0$ beliebig war, folgt [[Klenke Definition 4.2]] und damit die Aussage (ii). 
+-  *(iii)* Nach Satz 1.96 ist jede nichtnegative messbare Abbildung monotoner Limes von Elementarfunktionen. Es gibt also Folgen $(f_n)_{n \in \mathbb{N}}$ und $(g_n)_{n \in \mathbb{N}}$ in $E_+$ mit $f_n \uparrow f$ und $g_n \uparrow g$. Es gilt dann aber auch $(\alpha f_n + \beta g_n) \uparrow \alpha f + \beta g$. Nach (ii) und [[klenke Lemma 4.3]] gilt daher 
+ $$\int (\alpha f + \beta g) \, d\mu = \lim_{n \to \infty} \int (\alpha f_n + \beta g_n) \, d\mu = \alpha \lim_{n \to \infty} \int f_n \, d\mu + \beta \lim_{n \to \infty} \int g_n \, d\mu = \alpha \int f \, d\mu + \beta \int g \, d\mu.$$

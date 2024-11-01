@@ -1,0 +1,1 @@
+Wir definieren eine Abbildung $I : E_+ \to [0, \infty]$ durch $$I(f) = \sum_{i=1}^{m} \alpha_i \mu(A_i)$$falls $f$ die Normaldarstellung $$f = \sum_{i=1}^{m} \alpha_i 1_{A_i}$$ hat, wobei $\alpha_i \in [0, \infty)$ und $A_i \in \mathcal{A}$ paarweise disjunkt sind.
