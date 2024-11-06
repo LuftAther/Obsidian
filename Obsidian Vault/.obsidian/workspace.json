@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HaupTUnie/Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_1.md",
+                "file": "HaupTUnie/Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.3 Der Umkehrsatz.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024_10_1"
+              "title": "13.3 Der Umkehrsatz"
             }
           }
         ]
@@ -161,6 +161,22 @@
   },
   "active": "ddc5758797f8cd45",
   "lastOpenFiles": [
+    "HaupTUnie/Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.2 Implizite Funktionen.md",
+    "HaupTUnie/Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.3 Der Umkehrsatz.md",
+    "HaupTUnie/Definition 1.1.md",
+    "HaupTUnie/Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.1 Der banachsche Fixpunktsatz.md",
+    "HaupTUnie/Analysis/Analysis_3/12 Topologische Grundbegriffe/12.1 Topologische Grundbegriffe.md",
+    "HaupTUnie/Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit",
+    "HaupTUnie/Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_15.md",
+    "HaupTUnie/Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_20_17.md",
+    "HaupTUnie/Klenke Hölders Ungleichung.md",
+    "HaupTUnie/Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_08.md",
+    "HaupTUnie/Klenke Minkowski-Ungleichung.md",
+    "HaupTUnie/Klenke Jensens Ungleichung in R.md",
+    "HaupTUnie/Hölder-Ungleichung.md",
+    "HaupTUnie/Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/1.16.md",
+    "HaupTUnie/Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_03.md",
+    "HaupTUnie/Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_01.md",
     "Definition (1.3).md",
     "HaupTUnie/Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_1.md",
     "Definition 1.1.md",
@@ -173,19 +189,13 @@
     "HaupTUnie/4_Semester/Analysis_3/12 Topologische Grundbegriffe/12.3 häufungspunkte von Netzen.md",
     "HaupTUnie/4_Semester/Analysis_3/12 Topologische Grundbegriffe/12.2 Abgeschlossene mengen.md",
     "HaupTUnie/4_Semester/Analysis_3/12 Topologische Grundbegriffe",
-    "HaupTUnie/4_Semester/Analysis_3/12 Topologische Grundbegriffe/12.1 Topologische Grundbegriffe.md",
-    "HaupTUnie/4_Semester/Untitled.md",
     "HaupTUnie/4_Semester/Analysis_3",
-    "HaupTUnie/4_Semester/Analysis.md",
     "HaupTUnie/4_Semester",
     "Untitled",
     "HaupTUnie/3_Semester",
-    "Untitled.md",
     "HaupTUnie/2_Semester",
     "HaupTUnie/1_Semester",
-    "Analysis.md",
     "HaupTUnie",
-    "Untitled.canvas",
-    "Ananas banans.md"
+    "Untitled.canvas"
   ]
 }
