@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.5 Mannigfaltigkeiten.md",
+                "file": "Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.6 Tangentialräume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13.5 Mannigfaltigkeiten"
+              "title": "13.6 Tangentialräume"
             }
           }
         ]
@@ -165,10 +165,12 @@
   },
   "active": "d44803a02e8038c6",
   "lastOpenFiles": [
-    "13.5.10 Proposition.md",
-    "Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.5 Mannigfaltigkeiten.md",
-    "Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.3 Der Umkehrsatz.md",
     "Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.2 Implizite Funktionen.md",
+    "Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.6 Tangentialräume.md",
+    "Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.3 Der Umkehrsatz.md",
+    "Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.5 Mannigfaltigkeiten.md",
+    "Definition 13.5.1.md",
+    "13.5.10 Proposition.md",
     "Analysis/Bemerkung 6.9.12.md",
     "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_31.md",
     "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_11_07.md",
@@ -196,8 +198,6 @@
     "Loklale_Darstellbarkeit.png",
     "Pasted image 20241107080645.png",
     "13.1.1 Satz (Banachscher Fixpunktsatz).md",
-    "Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.1.1 Satz (Banachscher Fixpunktsatz).md",
-    "Analysis/Analysis_3/12 Topologische Grundbegriffe/12.3 häufungspunkte von Netzen.md",
     "Untitled.canvas",
     "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2",
     "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 1",
