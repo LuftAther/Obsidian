@@ -1,6 +1,3 @@
 [
-  "obsidian-latex-suite",
-  "note-definitions",
-  "obsidian-dictionary-plugin",
-  "quiz-generator"
+  "obsidian-to-anki-plugin"
 ]
