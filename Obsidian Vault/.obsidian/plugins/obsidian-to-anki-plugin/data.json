@@ -1,7 +1,7 @@
 {
   "settings": {
     "CUSTOM_REGEXPS": {
-      "Basic": "",
+      "Basic": "((?:[^\\n][\\n]?)+) #flashcard ?\\n*((?:\\n(?:^.{1,3}$|^.{4}(?<!<!--).*))+)",
       "Basic (and reversed card)": "",
       "Basic (optional reversed card)": "",
       "Basic (type in the answer)": "",
@@ -119,7 +119,7 @@
     "HaupTUnie/Maß- und Wahrscheinlichkeitstheorie/Definition (1.3).md": "d41d8cd98f00b204e9800998ecf8427e",
     "HaupTUnie/Maß- und Wahrscheinlichkeitstheorie/1.20.md": "a1f029dd31dc22938d9d84560a5f60c2",
     "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/test.md": "daefb69cbfe903c4cef0ab4ba8f6f6f1",
-    "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/200_1.md": "256817fde9e36ce8bec3bf1685da5bb9",
+    "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/200_1.md": "c1f0fa0cc9f6f3c96d217bc96abdb211",
     "HaupTUnie/Analysis/isometrische.md": "f5a43d98ef6ac33126a57c5ac6c9c670",
     "HaupTUnie/Analysis/Definition 9.2.1.md": "d3d37fa29ea734bfbe2aac3b9ccbb947",
     "HaupTUnie/Analysis/Bemerkung 6.9.12.md": "441a3342598e448303e33e744cd732ae",
@@ -153,7 +153,11 @@
     "*.md": "d41d8cd98f00b204e9800998ecf8427e",
     "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/2.3(6).md": "017f6ab6a71a6e04bc3f79d4e732f832",
     "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/2.3(2).md": "8ec28c8d33ede2463b398efad657732a",
-    "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/200_1 1 1.md": "8ec28c8d33ede2463b398efad657732a"
+    "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/200_1 1 1.md": "8ec28c8d33ede2463b398efad657732a",
+    "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/200_1 test.md": "2fc68781bd0fe26126ccc971c0d52535",
+    "Endomorphismen.md": "51828f1162a8ef6b3aa69b58979ea4fb",
+    "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/200.md": "705c7f6029b610e55ba165ceb4f8e8d2",
+    "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/201.md": "ff4de7198cc99c8c25060d68107d3afb"
   },
   "fields_dict": {
     "Basic": [
