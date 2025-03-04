@@ -1,4 +1,6 @@
 {
-  "accentColor": "#f7a387",
-  "interfaceFontFamily": "Cambria Math"
+  "accentColor": "#175d09",
+  "interfaceFontFamily": "Cambria Math",
+  "cssTheme": "Things",
+  "theme": "moonstone"
 }
