@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "a9bab68dfafe7fcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Funktional-Analysis/1.V0(2025_03_03).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.V0(2025_03_03)"
+            }
+          },
+          {
             "id": "ab2bd081f9c48e2d",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "13.6 Tangentialräume"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,7 +69,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -177,7 +193,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "d44803a02e8038c6",
+  "active": "a9bab68dfafe7fcf",
   "lastOpenFiles": [
     "Analysis/Analysis_3/14. mengen und Abbildungen/14.9 Fortsetzung von Maßen und Vergleichssatz.md",
     "Analysis/Analysis_3/14. mengen und Abbildungen/14.10 Der Darstellungssatz von Riesz.md",
