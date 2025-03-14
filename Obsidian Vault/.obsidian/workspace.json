@@ -44,26 +44,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HaupTUnie/DGL/1.Vorlesung 2025.03.03.md",
+                "file": "HaupTUnie/Algebra/Übungen/Einheit_1/Aufgabe 1.e.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.Vorlesung 2025.03.03"
+              "title": "Aufgabe 1.e"
             }
           },
           {
             "id": "94591fd25ed08752",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "HaupTUnie/DGL/4.Vorlesung 2025.03.11.md",
-                "mode": "preview",
-                "source": false
+                "file": "HaupTUnie/Algebra/Übungen/Einheit_1/Anmerkung_2_2_4_5.png"
               },
-              "icon": "lucide-file",
-              "title": "4.Vorlesung 2025.03.11"
+              "icon": "lucide-image",
+              "title": "Anmerkung_2_2_4_5"
             }
           },
           {
@@ -98,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -237,16 +235,29 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "94591fd25ed08752",
+  "active": "6b455f6c2cf5a4bb",
   "lastOpenFiles": [
+    "HaupTUnie/Algebra/Übungen/Einheit_1/Aufgabe 1.d.md",
+    "HaupTUnie/Algebra/Übungen/Einheit_1/Aufgabe 1.e.md",
+    "HaupTUnie/DGL/1.Vorlesung 2025.03.03.md",
+    "HaupTUnie/Algebra/Übungen/Einheit_1/Anmerkung_2_2_4_5.png",
+    "HaupTUnie/Algebra/Übungen/Einheit_1/Aufgabe 1.c.md",
+    "HaupTUnie/Algebra/Übungen/Einheit_1/Aufgabe 1.a.md",
+    "HaupTUnie/Algebra/Übungen/Einheit_1/Aufgabe 1.b.md",
+    "HaupTUnie/Algebra/Übungen/Einheit_1",
+    "HaupTUnie/Statistik/Problem_1.md",
+    "HaupTUnie/Statistik/Koppensteiner_Leonie_12006422_HW1",
+    "HaupTUnie/Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_10.md",
+    "HaupTUnie/Statistik",
+    "HaupTUnie/Funktional-Analysis/1.V0(2025_03_03).md",
+    "HaupTUnie/DGL/3.Vorlesung 2025.03.10.md",
+    "HaupTUnie/Algebra/2025_03_06.md",
+    "HaupTUnie/Algebra/Übungen",
+    "HaupTUnie/Algebra/2025_03_05.md",
+    "HaupTUnie/DGL/4.Vorlesung 2025.03.11.md",
     "HaupTUnie/DGL/stück.png",
     "HaupTUnie/DGL/output.png",
-    "HaupTUnie/DGL/1.Vorlesung 2025.03.03.md",
-    "HaupTUnie/DGL/4.Vorlesung 2025.03.11.md",
     "HaupTUnie/Funktional-Analysis/4.V0(2025_03_11).md",
-    "HaupTUnie/DGL/3.Vorlesung 2025.03.10.md",
-    "HaupTUnie/Algebra/2025_03_05.md",
-    "HaupTUnie/Funktional-Analysis/1.V0(2025_03_03).md",
     "HaupTUnie/Funktional-Analysis/2.VO(2025_03_04).md",
     "HaupTUnie/Funktional-Analysis/3.V0(2025_03_10).md",
     "HaupTUnie/Funktional-Analysis/1. Addendum zu Topologie.md",
@@ -263,12 +274,8 @@
     "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/208.md",
     "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/205.md",
     "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/202.md",
-    "$f$-zyklische Basis.md",
     "Pasted image 20250223130817.png",
-    "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/204.md",
     "Pasted image 20250223125945.png",
-    "Eigenvektor.md",
-    "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/201.md",
     "Pasted image 20250223124321.png",
     "Pasted image 20250223124258.png",
     "Untitled 4.canvas",
@@ -276,18 +283,10 @@
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Untitled.md",
-    "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/212.md",
-    "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/211.md",
     "Pasted image 20250201214025.png",
     "HaupTUnie/Funktional-Analysis",
     "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2/Anki",
     "Flashcaards",
-    "HaupTUnie/Lineare_Algebra/Lineare_Algebra_2",
-    "HaupTUnie/Lineare_Algebra",
-    "HaupTUnie/Analysis/Analysis_3/14. mengen und Abbildungen",
-    "HaupTUnie/Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 1",
-    "HaupTUnie/Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/Teil_von_M.png",
-    "HaupTUnie/Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/Loklale_Darstellbarkeit.png"
+    "HaupTUnie/Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/Teil_von_M.png"
   ]
 }
