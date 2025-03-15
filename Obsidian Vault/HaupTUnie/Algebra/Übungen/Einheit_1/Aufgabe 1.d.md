@@ -14,7 +14,8 @@ auch einfach als 213 schreiben. Sie können natürlich auch Zyklenschreibweise $
 #### (1)
 Die möglichen Permutationen sind:
 
-$id$,$\underbrace{\left(\begin{array}{c c c} 1&2&3 \\ 2 & 1&3 \end{array}\right)}_{T_{1,2}}$,  $\underbrace{\left(\begin{array}{c c c} 1&2&3 \\ 2 & 3&1 \end{array}\right)}_{T_{1,2,3}}$, $\underbrace{\left(\begin{array}{c c c} 1&2&3 \\ 1 &3&2 \end{array}\right)}_{T_{2,3}}$, $\underbrace{\left(\begin{array}{c c c} 1&2&3 \\ 3&1&2 \end{array}\right)}_{T_{1,3,2}}$, $\underbrace{\left(\begin{array}{c c c} 1&2&3 \\ 3&2&1 \end{array}\right)}_{T_{1,3}}$
+$id$,$\underbrace{\left(\begin{array}{c c c} 1&2&3 \\ 2 & 1&3 \end{array}\right)}_{T_{1,2}}$, $\underbrace{\left(\begin{array}{c c c} 1&2&3 \\ 3&2&1 \end{array}\right)}_{T_{1,3}}$$\underbrace{\left(\begin{array}{c c c} 1&2&3 \\ 1 &3&2 \end{array}\right)}_{T_{2,3}}$ $\underbrace{\left(\begin{array}{c c c} 1&2&3 \\ 2 & 3&1 \end{array}\right)}_{T_{1,2,3}}$, $\underbrace{\left(\begin{array}{c c c} 1&2&3 \\ 3&1&2 \end{array}\right)}_{T_{1,3,2}}$
+
 Das bedeutet $S_{3} = \{ id, T_{1,2},T_{1,3}, T_{2,3}, T_{1,2,3}, T_{1,3,2} \}$ 
 
 #### (2)
@@ -24,12 +25,11 @@ Davon sind kommutativ:
 - $\{ id, T_{123},T_{132} \}$
 - $S_{3}$
 
-| ∘               | *id*        | **$T_{1,2}$** | *$T_{2,3}$* | **$T_{1,3}$** | *$T_{1,2,3}$* | *$T_{1,3,2}$* |
+| $\bigcirc$      | *$id$*      | **$T_{1,2}$** | *$T_{1,3}$* | **$T_{2,3}$** | *$T_{1,2,3}$* | *$T_{1,3,2}$* |
 | --------------- | ----------- | ------------- | ----------- | ------------- | ------------- | ------------- |
-| *id*            | id          |               | 1 3 2       | 3 2 1         | 2 3 1         | 3 1 2         |
-| **$T_{1,2}$**   | $T_{1,2}$   | id            | $T_{1,3,2}$ | 3 1 2         | $T_{2,3}$     | $T_{1,3}$     |
-| **$T_{2,3}$**   | $T_{1,3,2}$ | $T_{1,3,2}$   | id          | $T_{1,2,3}$   | $T_{1,3}$     | $T_{1,2}$     |
-| **$T_{1,3}$**   | $T_{1,3}$   | $T_{1,2,3}$   | $T_{1,2,3}$ | id            | $T_{1,2}$     | $T_{2,3}$     |
-| **$T_{1,2,3}$** | $T_{1,2,3}$ | $T_{1,3}$     | $T_{1,2}$   | $T_{2,3}$     | $T_{1,2,3}$   | id            |
-| *$T_{1,3,2}$*   | $T_{2,3}$   | $T_{2,3}$     | $T_{1,3}$   | $T_{1,2}$     | id            | $T_{1,2,3}$   |
-|                 |             |               |             |               |               |               |
+| *$id$*          | $id$        | $T_{1,2}$     | $T_{1,3}$   | $T_{2,3}$     | $T_{1,2,3}$   | $T_{1,3,2}$   |
+| **$T_{1,2}$**   | $T_{1,2}$   | $id$          | $T_{1,2,3}$ | $T_{1,3,2}$   | $T_{1,3}$     | $T_{2,3}$     |
+| **$T_{1,3}$**   | $T_{1,3}$   | $T_{1,3,2}$   | $id$        | $T_{1,2,3}$   | $T_{2,3}$     | $T_{1,2}$     |
+| **$T_{2,3}$**   | $T_{2,3}$   | $T_{1,2,3}$   | $T_{1,3,2}$ | $id$          | $T_{1,2}$     | $T_{1,3}$     |
+| **$T_{1,2,3}$** | $T_{1,2,3}$ | $T_{1,3}$     | $T_{1,2}$   | $T_{2,3}$     | $T_{1,2,3}$   | $id$          |
+| *$T_{1,3,2}$*   | $T_{1,3,2}$ | $T_{2,3}$     | $T_{1,3}$   | $T_{1,2}$     | $id$          | $T_{1,2,3}$   |

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DGL/3.Vorlesung 2025.03.10.md",
+                "file": "Algebra/Übungen/Einheit_1/Aufgabe 1.f.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.Vorlesung 2025.03.10"
+              "title": "Aufgabe 1.f"
             }
           },
           {
@@ -195,6 +195,16 @@
   },
   "active": "62f89a08ab7ab05b",
   "lastOpenFiles": [
+    "Algebra/Übungen/Einheit_1/Aufgabe 1.e.md",
+    "Algebra/Übungen/Einheit_1/Zyk.png",
+    "Algebra/Übungen/Einheit_1/Screenshot 2025-03-14 at 23-53-37 Zyklische Zahlen.png",
+    "Algebra/Übungen/Einheit_1/sechs.gif",
+    "Algebra/Übungen/Einheit_1/Aufgabe 1.f.md",
+    "Algebra/Übungen/Einheit_1/zyklischeGruppe.png",
+    "Algebra/Übungen/Einheit_1/output(2).png",
+    "Algebra/Übungen/Einheit_1/Aufgabe 1.c.md",
+    "Algebra/Übungen/Einheit_1/Aufgabe 1.d.md",
+    "DGL/3.Vorlesung 2025.03.10.md",
     "Funktional-Analysis/4.V0(2025_03_11).md",
     "Funktional-Analysis/3.V0(2025_03_10).md",
     "DGL/4.Vorlesung 2025.03.11.md",
@@ -202,7 +212,6 @@
     "DGL/2.Vorlesung 2025.03.04.md",
     "DGL/2.png",
     "DGL/1.png",
-    "DGL/3.Vorlesung 2025.03.10.md",
     "DGL/cd.png",
     "DGL/808eb659-0ac2-4a1b-aa70-645b07d7a4fd.png",
     "Analysis/Analysis_3/14. mengen und Abbildungen/14.10 Der Darstellungssatz von Riesz.md",
@@ -222,17 +231,7 @@
     "Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.3 Der Umkehrsatz.md",
     "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/Untitled.md",
     "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_11_19.md",
-    "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_11_17.md",
-    "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_11_14.md",
-    "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_11_12.md",
-    "Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/13.5 Mannigfaltigkeiten.md",
-    "13..md",
-    "Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/Teil_von_M.png",
     "Analysis/Analysis_2",
-    "Analysis/Analysis_3/13 Implizite Funktionen und Mannigfaltigkeit/Loklale_Darstellbarkeit.png",
-    "Analysis/Analysis_3/Loklale_Darstellbarkeit.png",
-    "Analysis/Loklale_Darstellbarkeit.png",
-    "Loklale_Darstellbarkeit.png",
     "Untitled.canvas",
     "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2",
     "Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 1",
