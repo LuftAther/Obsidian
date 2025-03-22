@@ -12,12 +12,8 @@ gehören $(\mathbb{Z}, +)$ bzw. $(\mathbb{Z}, \cdot)$,
 gegebenenfalls nach Ergänzung mit geeigneten Operationen (wie in Aufgabe 2f)?
 
 ---
-## Definitionen:
 
-
-# Aufgabe 2g – Bestimme alle Homomorphismen
-
-## (1) $f: \mathbb{Z} \to \mathbb{Z}$ mit $f(x + y) = f(x) + f(y)$
+## 1) $f: \mathbb{Z} \to \mathbb{Z}$ mit $f(x + y) = f(x) + f(y)$
 
 Gesucht: Homomorphismen von $(\mathbb{Z}, +)$ nach $(\mathbb{Z}, +)$
 
@@ -31,7 +27,7 @@ Gesucht: Homomorphismen von $(\mathbb{Z}, +)$ nach $(\mathbb{Z}, +)$
 
 ---
 
-## (2) $f: \mathbb{Z} \to \mathbb{Z}$ mit $f(x \cdot y) = f(x) + f(y)$
+## 2) $f: \mathbb{Z} \to \mathbb{Z}$ mit $f(x \cdot y) = f(x) + f(y)$
 
 Homomorphismus von $(\mathbb{Z}, \cdot)$ nach $(\mathbb{Z}, +)$
 
@@ -51,7 +47,7 @@ Vergleiche mit $f(-x) = -f(x)$ aus Gruppeneigenschaft ⇒ $f(x) = 0$
 
 ---
 
-## (3) $f: (\mathbb{Z}, +) \to (\mathbb{Z}, \cdot)$
+## 3) $f: (\mathbb{Z}, +) \to (\mathbb{Z}, \cdot)$
 
 Homomorphismus von $(\mathbb{Z}, +)$ nach $(\mathbb{Z}, \cdot)$
 

@@ -28,9 +28,9 @@ Eine Gruppe $(G, *)$ heißt **abelsch** oder **kommutativ**, wenn:
 ![[Termfunktion.png]]
 
 ---
-### Aufgabe (1)
-Nach dem Hinweis:
-Betrachte:
+### 1) Aufgabe 
+
+Nach dem Hinweis, betrachte:
 - $s_k(z) := k - z$ .
 - $t_{k}(z) := - k+z$
 und die verknüpfung $\circ$ 
@@ -39,13 +39,16 @@ und die verknüpfung $\circ$
 Alleine bilden$\langle \{s\} \rangle$ und $\langle \{t\} \rangle$ mit $\circ$ keine (Unendliche)gruppe
 ##### Behauptung: 
 $\langle \{s,t\} \rangle = G$
+##### Beweis
 
-Wir rechnen nach:
-
-- $s_k \circ t_k = \text{id}$ ist neutral  
-- Inverse existieren (nachrechnen)  
+- $s_k \circ t_k = \text{id}$ ist neutral :
+	Sei $z\in \mathbb{Z}$ belibig dann gilt $s_k \circ t_k \circ (z) = s_{k} \circ (-k +z) = k - (k+z) = z$
+- Inverse existieren ( $t_{k} = -s_{k}$)
+	$s_k \circ (-t_k \circ (0)) = s_{k} \circ (k - 0) = k - (k + 0) = 0$
+- 
 - Assoziativität wegen $\circ$  
-- Abgeschlossenheit (nachrechnen)
+- Abgeschlossenheit: 
+	Wir erzuegen die Gruppe ja 
 
 **Beispiel**: Betrachte $\langle \{s_0\} \rangle$ und $\langle \{s_2\} \rangle$
 
@@ -54,7 +57,8 @@ Wir sehen:
 - $s_2 \circ s_2 = 2 -(2-0) =  s_2^2 = s_0$ ⇒ $\langle \{s_2\} \rangle = \{s_0, s_2\}$
 Aber:
 - $s_0 \circ s_2 = 0 - (2 - 0)s_0^+ = t_2$  
-- $s_2 \circ s_0 = s_2^+ = t_{-2}$
+- $s_2 \circ s_0 = t_2
+- = t_{-2}$
 Daher: $\langle \{s_0, s_2\} \rangle = \mathcal{G}$
 
 Setze:
