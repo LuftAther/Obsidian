@@ -52,3 +52,41 @@ Also: $S$ muss $\cap$-stabil sein.
 Also gibt es für $|A| \geq 3$ immer solche Mengen $S$, die **keine Unteruniversen-Mengen** sind.
 
 ![[Prop_2.2.1.8.png]]
+
+---
+**b)** Es reicht zu zeigen für $A = \{1,2,3\}$, dass somit $\mathfrak{P}(\{a,b,c\}) \subseteq \mathfrak{P}(A)$,  
+wemm $*$ außerhalb von $\{ a,b,c \}$ abbildet, kann man keine unteralgebra mehr erzeugen. 
+
+Wenn wir in $\mathfrak{P}(\{a,b,c\})$ eine weitere Teilmengenverknüpfung einer Unteralgebra finden würden, wäre dies auch die verknpfung in $\mathfrak{P}(A)$.  $$ \mathfrak{P}(A) = \{\emptyset, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\} \}$$$$S := \{ \{1,2,3\}, \{1,2\}, \{2\} \}$$
+Denn:
+
+- $1 * 2$, $2 * 1$  
+- $\Rightarrow 1, 2 \in \{1,2\}$  
+- $1 * 1 \neq 1$, $2 * 2 \neq 2$  
+- $\Rightarrow 1 * 1 = 2$  
+- $\Rightarrow 2 * 2 = 1$
+
+Auch:
+
+- $3 * 3 \neq 3$  
+- $3 * 3 = 1$  
+  $\Rightarrow (3 * 3) * 1 = 2$  
+  $\Rightarrow \langle \{3\} \rangle = \{1,2,3\}$  
+
+- $3 * 3 = 2$  
+  $\Rightarrow (3 * 3) * 2 = 1$  
+  $\Rightarrow \langle \{3\} \rangle = \{1,2,3\}$  
+
+Also: $\langle \{3\} \rangle = \{1,2,3\}$
+
+---
+
+**Tabelle für $*$ (Skizze):**
+
+| $*$ | 1   | 2   | 3   |
+| --- | --- | --- | --- |
+| 1   | ?   | ↑   | ?   |
+| 2   | ↑   | ?   | ?   |
+| 3   | ?   | ?   | ?   |
+
+[^1]: 

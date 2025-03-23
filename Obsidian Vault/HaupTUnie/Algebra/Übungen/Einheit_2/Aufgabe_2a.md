@@ -56,9 +56,8 @@ Wir sehen:
 - $s_0 \circ s_0 = s_0^2 = s_{0} = \text{id}$   ⇒ $\langle \{s_0\} \rangle = \{s_0, \text{id} \}$  
 - $s_2 \circ s_2 = 2 -(2-0) =  s_2^2 = s_0$ ⇒ $\langle \{s_2\} \rangle = \{s_0, s_2\}$
 Aber:
-- $s_0 \circ s_2 = 0 - (2 - 0)s_0^+ = t_2$  
-- $s_2 \circ s_0 = t_2
-- = t_{-2}$
+- $s_0 \circ s_2 = 0 - (2 - 0) = -2 = s_{2} =t_{-2}$  
+- $s_2 \circ s_0 = 2-(0-0) = 2 = s_{-2}= t_{2}$
 Daher: $\langle \{s_0, s_2\} \rangle = \mathcal{G}$
 
 Setze:

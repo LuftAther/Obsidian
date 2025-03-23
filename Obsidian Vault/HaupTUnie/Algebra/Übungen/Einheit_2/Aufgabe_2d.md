@@ -6,77 +6,48 @@ Zeige, dass $|G|$ ein Vielfaches von $p \cdot q$ ist.
 (Daraus folgt dann z.B. auch, dass eine Untergruppe der $S_3$, die sowohl eine „Rotation“ als auch eine „Spiegelung“ enthält, schon ganz $S_3$ sein muss; was Sie ja in Aufgabe 1d bereits gezeigt haben.)
 
 ---
-# Beweis zu Aufgabe 2d: $g_1^p = g_2^q = 1$ ⇒ $|G|$ ist Vielfaches von $p \cdot q$
+#### 1) Lemma:
 
-Gegeben: Endliche Gruppe $G$, $g_1, g_2 \in G$, $p \neq q$ Primzahlen, $g_1^p = g_2^q = 1$.
+Falls $g^p = 1$ mit einer Primzahl $p$, so ist $p$ auch  
+$$ \min \{ n \in \mathbb{N} \mid g^n = 1 \} $$
 
-## (1) Lemma:
+**Annahme:** $n \neq p$ sei Minimum ⇒  
+$1$-Stellen sind genau, wenn $(g^n)^m = g^{nm} = 1$, aber dann $p = n \cdot m \Rightarrow$ $\lightning$
 
-Falls $g^p = 1$ für eine Primzahl $p$, so ist $p$ das **minimale** $n \in \mathbb{N}$ mit $g^n = 1$
+---
 
-**Begründung:**  
-Annahme: $n < p$ sei kleinstes $n$ mit $g^n = 1$ ⇒ $p = m \cdot n$  
-Dann:
+#### 2) Lemma:
 
-$$
-g^p = (g^n)^m = 1^m = 1
-$$
+Die Menge $\left(g^n\right)_{n \in \{1, \dots, p\}}$ ist paarweise verschieden.
 
-⇒ Widerspruch zu Minimalität von $p$, wenn $n < p$
+Sei $g^i = g^j$ mit $i, j \in \{1, \dots, p\}$, so gilt:  
+$$ g^{j - i} = 1 $$  
+und da $j - i < p$, steht das im Widerspruch zu (1).  
+⇒ $j = i$
 
-## (2) Lemma:
+#### 3) Lemma:
 
-Die Potenzen $(g^i g_2^j)$ für $i = 1, \dots, p$, $j = 1, \dots, q$ sind **paarweise verschieden**
+$$H := \{ g^n : n \in \{1, \dots, p\} \} \subseteq G \text{ ist Untergruppe}$$
 
-Sei:
+Seien $a, b \in H$, dann $a = g^n$, $b = g^m$ für bestimmte $n, m \in \{1, \dots, p\}$
 
-$$
-g_1^i g_2^j = g_1^k g_2^\ell
-$$
+⇒  $a \cdot b = g^{n+m}$ 
+Falls $n + m > p$ gilt:  $a \cdot b = g^{n+m-p} \quad (\text{da} g^p = 1)$$\Rightarrow g^{n+m-p} \in H$
 
-Dann:
+Außerdem:  
+Zu $a = g^n$ existiert $a^{-1} = g^{-n}$, sodass:  
+$$a \cdot a^{-1} = 1 \Rightarrow 1 \in H$$
 
-$$
-g_1^{i - k} = g_2^{\ell - j}
-$$
+#### 4)
+Wir haben nun wegen (2) und (3) zwei Untergruppen $L$ und $H$ mit:
 
-Da $g_1^p = 1$ und $g_2^q = 1$, folgt:  
-$p \mid (i - k)$ und $q \mid (\ell - j)$ ⇒ Nur möglich, wenn $i = k$, $j = \ell$ wegen $p \neq q$
+- $|L| = p$
+- $|H| = q$
 
-## (3) Lemma:
+und nach **Lagrange** gilt:  
+- $p \mid |G|$  
+- $q \mid |G|$  
 
-Setze $H := \{ g_1^n g_2^m \mid 0 \leq n < p,\ 0 \leq m < q \} \subseteq G$  
-Dann ist $H$ eine **Untergruppe**.
-
-**Beweis:**
-
-Für $a = g_1^n g_2^m$ und $b = g_1^{n'} g_2^{m'} \in H$ gilt:
-
-$$
-a \cdot b = g_1^n g_2^m g_1^{n'} g_2^{m'} = g_1^{n + n'} g_2^{m + m'} \in H
-$$
-
-(wenn man Modulo $p$, $q$ rechnet)
-
-Für Inverses:
-
-$$
-a^{-1} = (g_1^n g_2^m)^{-1} = g_2^{-m} g_1^{-n} = g_1^{p - n} g_2^{q - m} \in H
-$$
-
-⇒ $H$ ist Untergruppe mit $|H| = p \cdot q$
-
-## (4) Schlussfolgerung:
-
-Wir haben zwei Untergruppen:
-
-- $L := \langle g_1 \rangle$ mit $|L| \mid p$
-- $H := \langle g_2 \rangle$ mit $|H| \mid q$
-
-Nach dem **Lemma von Lagrange**:
-
-- $p \mid |G|$
-- $q \mid |G|$
-- $p$ und $q$ Primzahlen ⇒ $p \cdot q \mid |G|$
-
+Da $p, q$ Primzahlen sind, gilt:
+$$ p \cdot q \mid |G| \quad \square $$
 $\blacksquare$

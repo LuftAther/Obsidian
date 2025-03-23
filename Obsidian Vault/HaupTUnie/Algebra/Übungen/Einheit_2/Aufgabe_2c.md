@@ -8,38 +8,37 @@ Dabei müssen Sie darauf achten, dass alle $C \in S$ abgeschlossen bezüglich $f
 
 Eine Menge $S \subseteq \mathcal{P}(A)$ ist eine **Unteruniversenmenge**  $\iff A \in S$ und $S$ ist **schnittstabil**, d.h.
 
-("⇒") folgt direkt aus der $\cap$-Stabilität von Unteralgebren (siehe Prop. 2.2.1.8)
+#### ("$\Rightarrow$") 
+folgt direkt aus der $\cap$-Stabilität von Unteralgebren (siehe Prop. 2.2.1.8)
 
 ![[Prop_2.2.1.8.png]]
 
-("$\Leftarrow$")
-
+##### ("$\Leftarrow$") 
 Sei $B \in \mathfrak{P}(A) \setminus S$ beliebig.
 
 Wir definieren $f_B$ mit Stelligkeit $\# B$:
 - Sei $B = \{b_1, \dots, b_{\#B}\}$  
 - Wähle $x \in A \setminus B$ beliebig  
+> Die Wahl von $x$ ist das worauf es ankommt
 - Definiere $f_B(b_1, \dots, b_{\#B}) := x$  (**1**)  
-- Für alle anderen $(y_1, \dots, y_{\#B}) \in A^{\#B} \setminus \{(b_1, \dots, b_{\#B})\}$ setze $f_B(y_1, \dots, y_{\#B}) := y_1$
+- Für alle anderen $(y_1, \dots, y_{\#B}) \in A^{\#B}$
+- setze $f_B(y_1, \dots, y_{\#B}) := y_1$
 
-### Behauptung:
-Alle $C \in S$ mit $B \not\subseteq C$ sind **abgeschlossen** bezüglich $f_B$  
-und $B$ ist **nicht** abgeschlossen.
+Sei $C \in \mathfrak{P}(A)$ mit $B \not\subseteq C$, wobei $C$ abgeschlossen ist gegenüber $f_B$.
 
----
+Wir zeigen, dass ein $x$ für (**1**) esisistiert, sodass alle $D \in S$ abgeschlossen gegenüber $f_B$ sind.
 
-## Warum gilt das?
-
-- Sei $C \in S$ mit $B \subseteq C$  
-- Da $S$ schnittstabil, gilt $\bigcap_{C \in S,\ B \subseteq C} C \in S$
-- Aber $x \notin B$, also auch $x \notin \bigcap C$
-
-⇒ $f_B(b_1, \dots, b_{\#B}) = x \notin B$  
-⇒ $B$ ist nicht abgeschlossen unter $f_B$
+**Bemerkungen:**
+- $\bigcap_{C \in S,\ B \in C} C \neq B$, weil $B \notin S$ und $S$ $\cap$-stabil ist.
+- Aber $B \in \bigcap_{C \in S,\ B \in C}$, weswegen...
+- $B \not\subseteq {\bigcap}_{C \in S, B \in C} C = B \dot{\cup} D$ für ein $D \in A$.
 
 ---
+Somit: Falls $B \subseteq C$ für ein $C \in S$, dann $D \subseteq C$.
 
-## Fazit:
+Wählen wir $x \in D$ für (**1**), so sind nun auch $C \in S$ mit $B \subseteq C$ bzgl. $f_B$ abgeschlossen ⇒  
+Alle $C \in S$ abgeschlossen gegenüber $f_B$ und $B$ nicht.
 
-Wählt man für jedes $B \in \mathcal{P}(A) \setminus S$ eine solche Operation $f_B$,  
-so ist die resultierende Algebra (bestehend aus all diesen $f_B$) eine Algebra mit **Unteruniversenmenge genau $S$**. $\square$
+Definiert man nun ein solches $f_B$ für alle $B \in \mathfrak{P}(A) \setminus S$ auf $A$,  
+so ist eine Algebra mit Universumsmenge $S$ konstruiert. □
+
