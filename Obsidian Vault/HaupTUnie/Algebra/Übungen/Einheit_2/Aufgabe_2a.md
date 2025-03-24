@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/m3z6wlzx#HGk1P9unM80pvRZetxncwiRYr6d50/S2bJHCSNJu9M8
+share_updated: 2025-03-24T19:18:27+01:00
+---
 # Aufgabenstellung
 
 (1.) Finden Sie eine unendliche Gruppe $\mathcal{G} = (G, *, 1, ^{-1})$ mit zwei Elementen $s, t$, sodass $\langle \{s\} \rangle$ und $\langle \{t\} \rangle$ endlich sind, aber $\langle \{s,t\} \rangle = G$ gilt. 
