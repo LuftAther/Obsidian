@@ -71,14 +71,13 @@ Setze:
 ## (2) Unendlich viele 2-stellige Termfunktionen
 
 Betrachte eine Familie von Termen $(t_n)_{n \in \mathbb{N}} \in T$ in der Termalgebra vom Typ $(2, 0, 1)$
-
 Definiere rekursiv Terme $t_n \in T$:
-- $t_0 = x y$
-- $t_{n+1} = x t_n$ (Term $n+1$-ter Ordnung)
+- $t_1 := \omega_{1}(x,y) = x \circ y \dots$ ein term fon Grad 1
+- $t_{n+1} = \omega \circ \omega \circ \underbrace{\cdots}_{n-mal} \circ \omega (x,y) = x t_n$ (Term $n+1$-ter Ordnung)
 
 Also:
-- $v(t_n) = \{x, y\}$  
-⇒ Damit bezeichnet $t_n(x, y)$ einen Term, in$\mathcal{G}$ und die von $\mathcal{G}$ induzierte Termfunktion ist:
+- $v(t_n) = \{x, y\} \dots$ Menge der vorkommenden Variablen (rekursiv definiert)  
+⇒ Damit bezeichnet $t_n(x, y)$ einen Term, in $\mathcal{G}$ und die von $\mathcal{G}$ induzierte (vgl. einsätzungshomomorphismus)Termfunktion ist:
 
 $$t_{n+1}^\mathcal{G}(g_1, g_2) = g_1^n \circ t_{n}^{\mathcal{G}}(g_{1}, g_2)$$
 
@@ -91,4 +90,37 @@ $$
 
 ⇒ Also sind die Termfunktionen **alle verschieden**
 ⇒ Es gibt unendlich viele
-Die 5 Beispiele aus der Aufgabe kann man aus dieser Konstruktion ableiten.
+
+##### 5 Beispiele: 
+
+Wir arbeiten in der Termalgebra vom Typ $(2, 0, 1)$ mit einer binären Verknüpfung $\omega$ (die der Verknüpfung $\circ$ entspricht).
+
+Die Terme $t_n(x, y)$ seien rekursiv definiert durch:
+
+- $t_1(x, y) := \omega(x, y) = x \circ y$
+- $t_2(x, y) := \omega(x, \omega(x, y)) = x \circ (x \circ y)$
+- $t_3(x, y) := \omega(x, t_2(x, y)) = x \circ (x \circ (x \circ y))$
+- $t_4(x, y) := x \circ (x \circ (x \circ (x \circ y)))$
+- $t_5(x, y) := x \circ t_4(x, y)$
+
+Diese Terme definieren die **folgenden 2-stelligen Termfunktionen**:
+
+1. **$f_1(g_1, g_2) := g_1 \circ g_2$**
+2. **$f_2(g_1, g_2) := g_1 \circ (g_1 \circ g_2) = g_1^2 \circ g_2$**
+3. **$f_3(g_1, g_2) := g_1 \circ (g_1 \circ (g_1 \circ g_2)) = g_1^3 \circ g_2$**
+4. **$f_4(g_1, g_2) := g_1^4 \circ g_2$**
+5. **$f_5(g_1, g_2) := g_1^5 \circ g_2$**
+
+**Bemerkung:**  
+Diese Funktionen sind alle **unterschiedlich**, da die Anwendung von $g_1$ mehrfach erfolgt und $\mathcal{G}$ unendlich ist – also $g_1^n \neq g_1^m$ für $n \neq m$.
+
+---
+
+**Schlussfolgerung:**  
+Es gibt unendlich viele solcher 2-stelligen Termfunktionen. Jede Funktion der Form:
+
+$$
+f_n(g_1, g_2) := g_1^n \circ g_2
+$$
+
+definiert eine **eigene**, von den anderen verschiedene, Termfunktion in $\mathcal{G}$.

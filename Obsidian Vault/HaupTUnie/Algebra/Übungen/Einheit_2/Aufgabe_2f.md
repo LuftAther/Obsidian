@@ -68,5 +68,4 @@ $B$ ist **Untergruppe** von $A$
 - $A = (\mathbb{R}, +, -, 0, \cdot, 1)$  
 - $B = 2\mathbb{Z}$ (gerade Zahlen)
 
-⇒ $B$ ist Unterring von $\mathbb{R}$  
-**aber**: $1 \notin 2\mathbb{Z}$ ⇒ $B$ ist **kein** Unter-1-Ring
+⇒ $B$ ist Unterring von $\mathbb{R}$  **aber**: $1 \notin 2\mathbb{Z}$ ⇒ $B$ ist **kein** Unter-1-Ring
