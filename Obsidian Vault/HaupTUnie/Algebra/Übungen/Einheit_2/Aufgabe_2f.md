@@ -19,31 +19,35 @@ Beantworten Sie die folgenden Fragen:
 ![[Monoid – Wikipedia.png]]
 #### 1-Ring:
 ![[Ring (Algebra) – Wikipedia.png]]
-
+##### Untergruppe:
+![[untergruppe.png]]
 
 ### 1) **Frage**: 
 #### Behauptung: Falsch
 
-**Gegenbeispiel**:  
+**Gegenbeispiel**(1):  
 - $A = (\mathbb{R}^+, \cdot)$ ist eine Gruppe  
 - $B = (\mathbb{N} \setminus \{0\}, \cdot)$ ist eine Unterhalbgruppe
 
 Wähle $1$ als neutrales Element ⇒ dann müsste für jedes $n \in B$ auch $n^{-1} \in B$ gelten  
 Aber z. B. $1/2 \notin \mathbb{N}$ ⇒ kein Inverses
 $\Rightarrow$ $B$ kann **nicht** zu einer Gruppe gemacht werden
+**Gegenbeispiel(2)**:
+- $A:=(\mathbb{Z}, +, 0,-)$ eine Gruppe dann ist
+- $B :=  (\mathbb{N} \setminus \{ 0 \}, +)$ eine Untergruppe aner **keine** Gruppe 
 
 ---
 
 ### 2)  **Frage**: 
 #### Behauptung: Falsch
 
-**Beispiel**:  
+**Gegenbeispiel**:  
 - $A = (\mathbb{N}, \max, 0)$ ist ein Monoid  
 	- Sei o.B.d.A $l,n,m \in \mathbb{N} l<n<m$ dann gilt:
 		- $max\{max \{ l,n \},m\} = max\{l,max \{ n,m \}\} \dots$ Assoziativität
 		- $max\{ n,0 \} = n \dots$ Neutrales Element
 - $B = (\mathbb{N} \setminus \{0\}, \max)$ ist Halbgruppe, **aber** $0 \notin B$ ⇒ kein neutrales Element in $B$
-$\Rightarrow$ $B$ ist **kein** Untermonoid
+$\Rightarrow$ $B$ ist Monoid aber**kein** Untermonoid
 
 ---
 ### 3) **Frage**: 

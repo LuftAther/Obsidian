@@ -44,12 +44,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HaupTUnie/Algebra/Übungen/Einheit_2/Aufgabe_2e.md",
-                "mode": "source",
+                "file": "HaupTUnie/Funktional-Analysis/7.VO(2025_03_24).md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aufgabe_2e"
+              "title": "7.VO(2025_03_24)"
             }
           },
           {
@@ -237,9 +237,15 @@
   },
   "active": "6b455f6c2cf5a4bb",
   "lastOpenFiles": [
+    "HaupTUnie/Funktional-Analysis/2.VO(2025_03_04).md",
+    "HaupTUnie/Funktional-Analysis/7.VO(2025_03_24).md",
+    "HaupTUnie/Funktional-Analysis/5.V0(2025_03_17).md",
+    "HaupTUnie/Funktional-Analysis/6.V0(2025_03_18).md",
+    "HaupTUnie/Funktional-Analysis/4.V0(2025_03_11).md",
     "HaupTUnie/Algebra/Übungen/Einheit_2/Aufgabe_2f.md",
-    "HaupTUnie/Algebra/Übungen/Einheit_2/Aufgabe_2g.md",
     "HaupTUnie/Algebra/Übungen/Einheit_2/Aufgabe_2e.md",
+    "HaupTUnie/Algebra/Übungen/Einheit_2/untergruppe.png",
+    "HaupTUnie/Algebra/Übungen/Einheit_2/Aufgabe_2g.md",
     "HaupTUnie/Algebra/Übungen/Einheit_2/Aufgabe_2d.md",
     "HaupTUnie/Algebra/Übungen/Einheit_2/Lagrange.png",
     "HaupTUnie/Algebra/Übungen/Einheit_2/Aufgabe_2c.md",
@@ -259,12 +265,8 @@
     "HaupTUnie/DGL/4.Vorlesung 2025.03.11.md",
     "HaupTUnie/Funktional-Analysis/3.V0(2025_03_10).md",
     "Pasted image 20250318151227.png",
-    "HaupTUnie/Funktional-Analysis/6.V0(2025_03_18).md",
-    "HaupTUnie/Funktional-Analysis/5.V0(2025_03_17).md",
     "HaupTUnie/DGL/5.Vorlesung(2025.03.17).md",
-    "HaupTUnie/DGL/Beweis_von_satz_3_7.png",
     "HaupTUnie/DGL/3.Vorlesung 2025.03.10.md",
-    "HaupTUnie/Funktional-Analysis/4.V0(2025_03_11).md",
     "HaupTUnie/Algebra/Übungen/Einheit_1/Aufgabe 1.f.md",
     "HaupTUnie/Algebra/Übungen/Einheit_1/Aufgabe 1.e.md",
     "HaupTUnie/Algebra/Übungen/Einheit_1/Aufgabe 1.d.md",
@@ -275,7 +277,6 @@
     "HaupTUnie/Algebra/Übungen/Einheit_1",
     "HaupTUnie/Statistik/Problem_1.md",
     "HaupTUnie/Statistik/Koppensteiner_Leonie_12006422_HW1",
-    "HaupTUnie/Maß- und Wahrscheinlichkeitstheorie/Maß- und Wahrscheinlichkeitstheorie 2/2024_10_10.md",
     "HaupTUnie/Statistik",
     "HaupTUnie/Algebra/Übungen",
     "HaupTUnie/DGL/Untitled",
