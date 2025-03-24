@@ -14,7 +14,7 @@ folgt direkt aus der $\cap$-Stabilität von Unteralgebren (siehe Prop. 2.2.1.8)
 ![[Prop_2.2.1.8.png]]
 - Der Schnitt zweier Unteralgebren wieder eine Unteralgebra ist.
 - Wenn S nicht unter Schnitten abgeschlossen wäre, gäbe es also eine Menge, die nicht in S liegt, aber dennoch eine Unteralgebra wäre – das wäre ein Widerspruch.
-##### ("$\Leftarrow$") 
+#### ("$\Leftarrow$") 
 Sei $B \in \mathfrak{P}(A) \setminus S$ beliebig. ZZ:: B ist *keine* Unteralgebra
 Um das zu zeigen müssen wir eine operration finden die gegenüber der B nicht abgeschlossen ist.
 

@@ -13,7 +13,7 @@ gegebenenfalls nach Ergänzung mit geeigneten Operationen (wie in Aufgabe 2f)?
 
 ---
 
-### 1) $f: \mathbb{Z} \to \mathbb{Z}$ mit $f(x + y) = f(x) + f(y)$
+### Aufgabe (1) $f: \mathbb{Z} \to \mathbb{Z}$ mit $f(x + y) = f(x) + f(y)$
 
 Gesucht: Homomorphismen von $(\mathbb{Z}, +)$ nach $(\mathbb{Z}, +)$
 
@@ -27,7 +27,7 @@ Gesucht: Homomorphismen von $(\mathbb{Z}, +)$ nach $(\mathbb{Z}, +)$
 
 ---
 
-### 2) $f: \mathbb{Z} \to \mathbb{Z}$ mit $f(x \cdot y) = f(x) + f(y)$
+### Aufgabe (2) $f: \mathbb{Z} \to \mathbb{Z}$ mit $f(x \cdot y) = f(x) + f(y)$
 
 Homomorphismus von $(\mathbb{Z}, \cdot)$ nach $(\mathbb{Z}, +)$
 
@@ -43,7 +43,7 @@ Vergleiche mit $f(-x) = -f(x)$ aus Gruppeneigenschaft ⇒ $f(x) = 0$
 
 ---
 
-### 3) $f: (\mathbb{Z}, +) \to (\mathbb{Z}, \cdot)$
+### Aufgabe (3) $f: (\mathbb{Z}, +) \to (\mathbb{Z}, \cdot)$
 
 Homomorphismus von $(\mathbb{Z}, +)$ nach $(\mathbb{Z}, \cdot)$
 
@@ -61,9 +61,7 @@ Betrachte:
 Das erhällt man  **nur** im fall $f \equiv 1$ oder $f \equiv 0$  $\Rightarrow$ **konstante Homomorphismen**.
 
 ---
-
-## Zusammenfassung:
-
+Dammit erhalten wir Zusammengefasst :
 - Homomorphismen $(\mathbb{Z}, +) \to (\mathbb{Z}, +)$: $f(x) = kx$
 - Homomorphismen $(\mathbb{Z}, \cdot) \to (\mathbb{Z}, +)$: nur $f(x) = 0$
 - Homomorphismen $(\mathbb{Z}, +) \to (\mathbb{Z}, \cdot)$: $f(x) = 1$ oder $f(x) = 0$

@@ -9,36 +9,33 @@ Sei $p$ eine Primzahl.
 ---
 #### 1) Es gibt bis auf Isomorphie nur eine Gruppe der Ordnung $p$ (Primzahl)
 
-Sei $|G| = p$ eine Primzahl, $(G, \cdot, {}^{-1}, 1)$ eine Gruppe.
-Dann gilt nach **Lagrange**: $G$ hat genau die Untergruppen $\{1\}$ und $G$ selbst.
-Daher: $\langle g \rangle = G \quad \text{für } g \neq 1$
-Also insbesondere:$G = \{ g^n : n \in \mathbb{N} \}$
+Sei $|G| = p$ mit $p \dots$ Primzahl, weiters sei $(G, \cdot, {}^{-1}, 1)$ eine Gruppe.
+Mit **lagrange** folgt das G nur die Untergruppen $\{1\}$ und $G$ selbst haben kann.
+Daher: $\langle g \rangle = G \quad \text{für } g \neq 1$ Insbesondere: $G = \{ g^n : n \in \mathbb{N} \}$
 Es gilt sogar:
 $$G = \{ g^n : n \in \{1, \dots, p\} \} \quad \text{und} \quad g^p = 1 \tag{$\alpha$}$$
 Wir betrachten für festes $g \in G$ die Abbildung:
 $$\varphi : G \to \mathbb{Z}_{p \quad}g^{n} \mapsto \bar{n} \quad \text{für } n \in \{0, \dots, p-1\}$$
+>$\bar{n} \dots$ representatnt der aquivalenzklasse 
 
 $\varphi$ ist wohldefiniert, da $g^n$ eindeutig jedes $h \in G$ trifft. Seien $a = g^n$, $b = g^m$ mit $n, m \in \{0, \dots, p-1\}$, dann gilt:
-
 $$\varphi(a \cdot b) = \varphi(g^n \cdot g^m) = \varphi(g^{n+m}) = \varphi(g^{n+m \bmod p}) = \overline{n+m \text{ mod }p}$$
 Also:
 $$\varphi(a \cdot b) = \varphi(g^n) \cdot \varphi(g^m) = \varphi(a) \cdot \varphi(b)$$
 
  $\Rightarrow \varphi$ ist ein **Gruppenhomomorphismus** und **Bijektion**.
-**Folgerung:**  
-$G \cong \mathbb{Z}_p$ für alle Gruppen $ G$  mit  $|G| = p \Rightarrow$ alle zyklischen Gruppen der Ordnung  $p$  sind isomorph. $\square$
+damit erhalten wir:
+$G \cong \mathbb{Z}_p$ für alle Gruppen $G$  mit  $|G| = p$
+$\Rightarrow$ alle zyklischen Gruppen der Ordnung  $p$  sind isomorph. $\square$
 
----
-
-**Beweis von ($\alpha$):**  
+##### Beweis von ($\alpha$):
 Da $G = \{ g^n : n \in \mathbb{N} \}$, gibt es $m,n \in \mathbb{N}, n < m$ mit $g^n = g^m$.  
-$\Rightarrow k := m - n > 0$, also $g^k = 1$ 
-$\Rightarrow G = \{ g^n : n \in \{1, \dots, k\} \}$
+$\Rightarrow k := m - n > 0$, also $g^k = 1$ $\Rightarrow G = \{ g^n : n \in \{1, \dots, k\} \}$
 
 Falls $k > p$, gibt es wieder nach derselben Konstruktion ein $p \leq \ell < k$ mit $g^\ell = 1$
 $\Rightarrow G = \{ g^n : n \in \{1, \dots, \ell\} \}$ Dieser Prozess endet nach endlich vielen Schritten mit:
 $$G = \{ g^n : n \in \{1, \dots, p\} \} \quad \text{und} \quad g^p = 1$$
-
+---
 #### 2) Es gibt mehr als eine (bis auf Isomorphie) Gruppe der Ordnung $p^2$.
 
 $|G| = p^2$, $p$ Primzahl, $(G, \cdot, {}^{-1}, 1)$

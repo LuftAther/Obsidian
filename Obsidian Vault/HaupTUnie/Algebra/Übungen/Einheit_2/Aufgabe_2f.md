@@ -22,7 +22,7 @@ Beantworten Sie die folgenden Fragen:
 ##### Untergruppe:
 ![[untergruppe.png]]
 
-### 1) **Frage**: 
+### Aufgabe (1) **Frage**: 
 #### Behauptung: Falsch
 
 **Gegenbeispiel**(1):  
@@ -38,7 +38,7 @@ $\Rightarrow$ $B$ kann **nicht** zu einer Gruppe gemacht werden
 
 ---
 
-### 2)  **Frage**: 
+### Aufgabe (2)  **Frage**: 
 #### Behauptung: Falsch
 
 **Gegenbeispiel**:  
@@ -50,7 +50,7 @@ $\Rightarrow$ $B$ kann **nicht** zu einer Gruppe gemacht werden
 $\Rightarrow$ $B$ ist Monoid aber**kein** Untermonoid
 
 ---
-### 3) **Frage**: 
+### Aufgabe (3) **Frage**: 
 #### Behauptung: Wahr
 **Beweis**: Zeige, dass $0' = 0$
 
@@ -65,7 +65,7 @@ $B$ ist **Untergruppe** von $A$
 
 ---
 
-### 4) **Frage**:
+### Aufgabe (4) **Frage**:
 
 #### Behauptung: Falsch
 **Gegenbeispiel**:  
