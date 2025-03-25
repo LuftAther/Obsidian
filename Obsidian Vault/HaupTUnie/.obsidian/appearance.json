@@ -1,5 +1,6 @@
 {
-  "cssTheme": "LaTeX",
+  "cssTheme": "AnuPpuccin",
   "accentColor": "#2a4f11",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "interfaceFontFamily": "FreeSerif,Berenis ADF Pro Math"
 }
