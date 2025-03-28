@@ -1,6 +1,7 @@
 {
   "accentColor": "#175d09",
   "interfaceFontFamily": "Cambria Math",
-  "cssTheme": "Things",
-  "theme": "moonstone"
+  "cssTheme": "AnuPpuccin",
+  "theme": "moonstone",
+  "textFontFamily": "FreeSerif"
 }
