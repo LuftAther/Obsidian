@@ -1,12 +1,12 @@
 ## Problem 1: Transforms and Moments
 
-Let $X \sim \mathcal{N}(0, 1)$ be standard normal distributed.
+Let $X \sim \mathcal{N}(0,1)$ be standard normal distributed.
+
+1. Compute $\mathbb{E}[X^2]$ directly, then use the pdf of $Y = X^2$ and compute $\mathbb{E}[Y]$.
+2. Find the pdf of $|X|$ and compute $\mathbb{E}[|X|]$.
 
 ---
-
-### 1. Compute $\mathbb{E}[X^2]$ directly, then use the PDF of $Y = X^2$ and compute $\mathbb{E}[Y]$
-
-#### a. Direct computation of $\mathbb{E}[X^2]$
+#### 1.a. Direct computation of $\mathbb{E}[X^2]$
 
 Since $X$ is standard normal:
 - Mean: $\mathbb{E}[X] = 0$
@@ -16,11 +16,66 @@ We know:
 $$
 \mathbb{E}[X^2] = \text{Var}(X) + (\mathbb{E}[X])^2 = 1 + 0 = 1
 $$
+$\mathbb{E}(X²) = \int_{\mathbb{R}} x^2 f_{X}(x)dx = \frac{1}{\sqrt{ 2 \pi }} \int_{\mathbb{R}} \underset{\text{ ableiten} }x \underbrace{x \exp(\frac{-x^2}{2})}_{\text{ Itegrieren }}dx$
+> $\int x e^{\frac{-x^2}{2}}dx = -e^{\frac{-x^2}{2}}+c$
 
-#### b. Compute $\mathbb{E}[Y]$ where $Y = X^2$
+$$
+= \frac{1}{\sqrt{2\pi}} \left( -x e^{-\frac{x^2}{2}} \bigg|_{-\infty}^{\infty} + \int_{\mathbb{R}} e^{-\frac{x^2}{2}} \, dx \right)
+$$
+
+$$
+= \left. u = \frac{x}{\sqrt{2}} \quad \frac{du}{dx} = \frac{1}{\sqrt{2}} \Rightarrow dx = \sqrt{2} \, du \right| 
+= \frac{1}{\sqrt{\pi}} \int_{\mathbb{R}} e^{-u^2} \, du
+$$
+
+$$
+= \frac{2}{\sqrt{\pi}} \int_0^{\infty} e^{-u^2} \, du = \text{erf}(\infty) = 1
+$$
+
+
+#### 1.b. Compute $\mathbb{E}[Y]$ where $Y = X^2$
 
 Let $Y = X^2$. Then $Y \sim \chi^2(1)$, which is a chi-squared distribution with 1 degree of freedom.
+-
+Wir setzen $Y = X^2 \sim \chi^2(1)$.
 
+The chi-squared distribution with 1 degree of freedom is equivalent to a Gamma distribution with parameters:
+![[chi.png|400]]
+$$
+\chi^2(1) \overset{d}{=} \text{Gamma}(\alpha = \tfrac{1}{2}, \, \beta = 2)
+$$
+where $\beta$ is the der **Skale parameter** ist.
+
+---
+We know from the Lecture:
+
+> **Gamma: Expectation**
+
+For $X \sim \text{Gamma}(\alpha, \beta)$, we have:
+$$
+\mathbb{E}(X) = \int_{-\infty}^{+\infty} x f_X(x) \, dx 
+= \frac{1}{\Gamma(\alpha) \, \beta^\alpha} \int_0^{+\infty} x^\alpha e^{-x / \beta} \, dx
+$$
+
+**Substitution:** $x = \beta u \Rightarrow dx = \beta \, du$
+$$
+= \frac{\beta}{\Gamma(\alpha)} \int_0^{+\infty} u^\alpha e^{-u} \, du
+$$
+
+Integration by parts:
+$$
+= \frac{\beta}{\Gamma(\alpha)} \left[ -u^\alpha e^{-u} \bigg|_0^{+\infty} + \alpha \int_0^{+\infty} u^{\alpha - 1} e^{-u} \, du \right]
+$$
+
+$$
+= \frac{\beta}{\Gamma(\alpha)} \cdot \alpha \Gamma(\alpha)
+= \alpha \beta
+$$
+Therefore:
+$$
+\mathbb{E}(X^2) = \mathbb{E}(Y) = \alpha \beta = \tfrac{1}{2} \cdot 2 = 1
+$$
+---
 The PDF of $Y$ is:
 $$
 f_Y(y) = \frac{1}{\sqrt{2\pi y}} e^{-y/2}, \quad y > 0

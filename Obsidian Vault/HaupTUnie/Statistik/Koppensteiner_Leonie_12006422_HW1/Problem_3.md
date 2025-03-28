@@ -8,11 +8,12 @@ For example:
 - $X = 4$ if the first 4 flips are HHHH and the 5th is T (i.e., a run of 4 heads followed by a tail).
 - $X = 4$ also if the first 4 flips are TTTT and the 5th is H (i.e., a run of 4 tails followed by a head).
 
----
+Determine the distribution of $X$ and Compute the expectation $\mathbb{E}[X]$.
 
-### 1. Determine the distribution of $X$
+----
+### 1. Determine the distribution of X
 
-We determine the **probability mass function (PMF)** of $X$.
+We determine the **probability mass function (PMF)** of $X$. 
 
 Let’s assume the first flip is:
 - Heads with probability $p$
@@ -21,13 +22,11 @@ Let’s assume the first flip is:
 Let $X = k$ for $k \in \mathbb{N}$. Then, the first $k$ flips must all be the same, and the $(k+1)$-th flip must differ.
 
 So, we have two cases:
-
-#### Case 1: Initial run of heads
+- Case 1: Initial run of heads
 $$
 \mathbb{P}(X = k \mid \text{starts with heads}) = p^k (1 - p)
 $$
-
-#### Case 2: Initial run of tails
+- Case 2: Initial run of tails
 $$
 \mathbb{P}(X = k \mid \text{starts with tails}) = (1 - p)^k p
 $$
@@ -93,5 +92,3 @@ This is the expected length of the first run of identical coin flips.
   $$
   \mathbb{E}[X] = \frac{p^2 + (1 - p)^2}{p(1 - p)}
   $$
-
----
