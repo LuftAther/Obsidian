@@ -44,14 +44,26 @@ $$
 
 ### 2. Plot the density $f_Y(y; \mu, \sigma^2)$
 
-In R, you can use:
 
 ```r
-curve(dlnorm(x, meanlog = 0, sdlog = 1), from = 0.01, to = 5, col = "blue", lwd = 2)
-curve(dlnorm(x, meanlog = 1, sdlog = 0.5), from = 0.01, to = 5, col = "red", add = TRUE)
-curve(dlnorm(x, meanlog = -1, sdlog = 1.5), from = 0.01, to = 5, col = "green", add = TRUE)
-legend("topright", legend = c("μ=0, σ²=1", "μ=1, σ²=0.25", "μ=-1, σ²=2.25"),
-       col = c("blue", "red", "green"), lwd = 2)
+density <- function(x, mu, sigma_squared){
+    return (exp(-(log(x)-mu)^2/(2*sigma_squared))/(x*sqrt(2*pi*sigma_squared)))
+}
+
+# empty plot
+plot(NULL, type="n", xlab="x", ylab="density", xlim=c(0, 5), ylim=c(0, 1))
+
+x <- seq(0, 5, length=512)
+
+mus = c(0, 1, 1.7)
+colors = c("red", "green", "blue")
+for (id in 1:length(mus)){
+    mu <- mus[id]
+    for (sigma_squared in c(0.2, 0.35, 1, 2)){
+        lines(x, density(x, mu, sigma_squared), col=colors[id])
+    }
+}
+legend("topright", legend = c("mu=0", "mu=1", "mu=1.7"), lty=c(19, 19, 19), col=colors)
 ```
 
 ### 3. Compute all moments $\mathbb{E}[Y^k]$ for $k \in \mathbb{N}$ of $Y$ for the special case of $\mu = 0$ and $\sigma^2 = 1$, where
