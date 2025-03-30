@@ -1,4 +1,4 @@
- ## Lineare ODE \(n\)-ter Ordnung
+## Lineare ODE \(n\)-ter Ordnung
 
 Gegeben:
 
@@ -463,4 +463,4 @@ $$
 eine **Partikulärlösung** von $(\tilde{\star})$.
 ##### Beobachtung:
 - **Nicht-Resonanzfall**: Lösungen bleiben beschränkt für $t \to \infty$  
-- **Resonanzfall**: Lösungen b
+- **Resonanzfall**: Lösungen bleiben **nicht** beschränkt für $t \to \infty$
