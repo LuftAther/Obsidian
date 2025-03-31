@@ -66,8 +66,6 @@ Damit ist gezeigt, dass $J \not\leq I$.
 
 ---
 
-### Erklärung
-
 Die Konstruktion zeigt ein konkretes Beispiel einer Gruppe mit Untergruppen $J$ und $K$, bei denen:
 - $K \leq J$
 - $J \leq G$

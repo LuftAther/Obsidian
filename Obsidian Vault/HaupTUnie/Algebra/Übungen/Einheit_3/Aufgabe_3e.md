@@ -4,13 +4,13 @@ G := \mathbb{Z}_3 \times \mathbb{Z}_3
 $$
 (Dabei meinen wir mit $\mathbb{Z}_3$ natürlich die Gruppe $(\mathbb{Z}_3, +, \bar{0}, -)$.)  
 *(Hinweis: Lineare Algebra kann hier hilfreich sein.)* Finden Sie für jeden solchen Normalteiler $N$ eine (möglichst einfach beschriebene) Gruppe $H$ und einen Homomorphismus 
+
 $$
 \varphi : G \to H
-$$ sodass $N$ das $\varphi$-Urbild des neutralen Elements von $H$ ist.
+$$
+sodass $N$ das $\varphi$-Urbild des neutralen Elements von $H$ ist.
 
 ---
-Alle Normalteiler von $\mathbb{Z}_{3} \times \mathbb{Z}_{3}$
-Normalteiler wo seit ihr ... ? ich bin zu alt zum suchen aber ich muss euch finden
 
 - Ein **Normalteiler** $N$ einer Gruppe $G$ ist eine Untergruppe von $G$, die unter Konjugation mit jedem Element von $G$ invariant bleibt. Das bedeutet:
 
@@ -37,7 +37,7 @@ Das bedeutet, dass die Gruppe $G$ aus geordneten Paaren $(x,y)$ besteht, wobei $
 $$(x_1, y_1) + (x_2, y_2) = (x_1 + x_2, y_1 + y_2)$$
 
 ---
-#### Aufzählung der Untergruppen von $G = \mathbb{Z}_3 \times \mathbb{Z}_3$
+#### Betrachte die Untergruppen von $G = \mathbb{Z}_3 \times \mathbb{Z}_3$
 Wir zählen alle Untergruppen von $G$ auf. Diese sind automatisch Normalteiler, da $G$ abelsch ist:
 
 1. $\{(0,0)\}$

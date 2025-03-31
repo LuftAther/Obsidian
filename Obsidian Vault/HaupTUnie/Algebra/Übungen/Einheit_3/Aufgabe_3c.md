@@ -15,7 +15,7 @@
 >- $t_{k}(z) :=  k+z$
 und die verknüpfung $\circ$ 
 >-  $s_k \circ s_\ell(z) = s_k(s_\ell(z)) \Leftrightarrow  k - ( \ell - z ) = (k - \ell) + z$
->-  $t_k \circ t_\ell(z) = t_k(s_\ell(z)) \Leftrightarrow  -k + ( \ell+ z )$
+>-  $t_k \circ t_\ell(z) = t_k(s_\ell(z)) \Leftrightarrow  k + ( \ell+ z )$
 Alleine bilden$\langle \{s\} \rangle$ und $\langle \{t\} \rangle$ mit $\circ$ keine (Unendliche)gruppe
 
 #### Behauptung:
@@ -41,9 +41,9 @@ Die Aussage zeigt also, dass die Menge der Torsionselemente **keine Untergruppe*
 
 ---
 
-### (3) Geben Sie ein Beispiel einer nichtabelschen Gruppe $H$ an, in der die Menge $T$der Torsionselemente eine nichttriviale Untergruppe von $H$ **ist.**  
+### (2) Geben Sie ein Beispiel einer nichtabelschen Gruppe $H$ an, in der die Menge $T$der Torsionselemente eine nichttriviale Untergruppe von $H$ **ist.**  
 
-Wir betrachten die Gruppe $S_3 \times \mathbb{Z}$, versehen mit der Verknüpfung $\circ \times +$, und dem neutralen Element $(id, 0)$.
+Betrachte die Gruppe $S_3 \times \mathbb{Z}$, versehen mit der Verknüpfung $\circ \times +$, und dem neutralen Element $(id, 0)$.
 
 #### Bestimmung der Torsionselemente
 - Alle Elemente von $S_3$ haben **endliche Ordnung** (maximal 3).
@@ -62,11 +62,10 @@ $$
 
 ### Erklärung
 
-- Hier wird eine direkte Produktgruppe $S_3 \times \mathbb{Z}$ betrachtet, wobei die Elemente Paare $(g, n)$ sind mit $g \in S_3$ und $n \in \mathbb{Z}$.
+- Wir betrachten die direkte Produktgruppe $S_3 \times \mathbb{Z}$, wobei die Elemente Paare $(g, n)$ sind mit $g \in S_3$ und $n \in \mathbb{Z}$.
 - Da $\mathbb{Z}$ unendliche Ordnung besitzt, kann ein Element nur dann Torsionselement sein, wenn es bezüglich der $\mathbb{Z}$-Komponente null ist.
 - Somit bildet die Menge $T = \{(g, 0) \mid g \in S_3\}$ eine Untergruppe, die isomorph zu $S_3$ ist und daher ebenfalls nicht abelsch.
 
-Diese Aufgabe zeigt, dass es nichtabelsche Gruppen gibt, deren Torsionselemente tatsächlich eine Untergruppe bilden. 
 
 ### (3) Zeigen Sie (für alle Gruppen): Wenn die Menge der Torsionselemente eine Untergruppe ist, dann ist sie sogar ein Normalteiler.
 
@@ -79,10 +78,15 @@ Eine Hilfsaussage dafür ist, dass $(xtx^{-1})^n = xt^nx^{-1}$, was man mittels 
 
 #### Induktionsbeweis
 
-- **Induktionsanfang:** $n = 0$ : eh klar.
+- **Induktionsanfang:** $n = 0$ :
+$$(xtx^{-1})⁰ = 1$$
+- **Induktionsbehauptung:**
+$$\forall n \in \mathbb{N} : (xtx^{-1})^{n}= 1 $$
+- **Induktionsschritt:** ($n \to n+1$) :
+$$(xtx^{-1})^{n+1} = (xtx^{-1})^{n (xtx^{-1})}\overset{IB}{\Rightarrow} 1(xtx^{-1})$$
+Damit ist die aussage bewiesen da $t \in T \Rightarrow t = 1$ damit haben wir $x1x^{-1} =1$
 
-- **Induktionsschritt:** $n \to n+1$ :
-
+Weil mir mein Beweis zu sus ist: 
 $$(xtx^{-1})^{n+1} = (xtx^{-1})^n (xtx^{-1}) = (xt^nx^{-1})(xtx^{-1}) = (xt^n)(x^{-1}x)(tx^{-1}) = xt^{n+1}x^{-1}.$$
 
 Damit ist bewiesen:

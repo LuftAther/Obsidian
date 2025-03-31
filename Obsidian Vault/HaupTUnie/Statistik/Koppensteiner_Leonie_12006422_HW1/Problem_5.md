@@ -103,16 +103,18 @@ $$
 $$
 
 ---
-> ### Substitution
->$$
+>Substiting:
+$$
 g(x) = \sqrt{\frac{x}{\nu}}, \quad g^{-1}(y) = \nu y^2, \quad \frac{d}{dy} g^{-1}(y) = 2 \nu y
 $$
 
 ---
+
 $$
 f_T(t) = \frac{1}{\sqrt{2\pi}} \int_{0}^{\infty} x \exp \left( -\frac{t^2 x^2}{2} \right)
 \left( \frac{(\frac{1}{2})^{\nu/2}}{ \Gamma(\nu/2)} \right) \left( \nu x^2 \right)^{\nu/2 - 1} \exp \left( -\frac{\nu x^2}{2} \right) \cdot 2\nu x \, dx
 $$
+
 
 
 The integral we want to evaluate is:
@@ -121,15 +123,17 @@ $$
 f_T(t) = \alpha \int_0^{\infty} x(x^2)^{\frac{\nu + 1}{2}-1}\exp \left( -\frac{1}{2}x^2 (t^2 + \nu) \right) \, dx
 $$
 
+
 Where:
 
 $$
 \alpha = \frac{ \left( \frac{1}{2} \right)^{\nu/2} \nu^{(\nu/2) - 1} \cdot 2 \nu }{ \sqrt{2\pi} \, \Gamma \left( \nu / 2 \right) }
 
 $$
+
 ---
->Substitute:
->$$
+>Substituting:
+$$
 u = x^2, \quad \frac{du}{dx} = 2x, \quad dx = \frac{du}{2x}
 $$
 ---
@@ -138,8 +142,9 @@ $$
 = \frac{\alpha}{2} \int_0^{\infty} u^{\frac{\nu + 1}{2} - 1} \exp \left( -\frac{t^2 + \nu}{2} u \right) \, du
 $$
 
+
 ---
-Now we substitute:
+>substitute:
 
 $$
 w = \frac{t^2 + \nu}{2} u, \quad \frac{dw}{du} = \frac{t^2 + \nu}{2}
@@ -153,10 +158,12 @@ $$
 = \frac{\alpha}{2} \frac{2}{t^2 + \nu} \left( \frac{2}{t^2 + \nu} \right)^{\frac{\nu+1}{2} - 1} \int_{0}^{\infty} w^{\frac{\nu+1}{2} - 1} e^{-w} \, dw
 $$
 ---
->Recognizing the Gamma Function
->$$
->\int_0^{\infty} w^{\frac{\nu + 1}{2} - 1} e^{-w} \, dw = \Gamma \left( \frac{\nu + 1}{2} \right)
->$$
+
+> Recognizing the Gamma Function
+$$
+\int_0^{\infty} w^{\frac{\nu + 1}{2} - 1} e^{-w} \, dw = \Gamma \left( \frac{\nu + 1}{2} \right)
+$$
+
 ---
 
 $$
@@ -191,4 +198,4 @@ $$
 f_T(t) = \frac{ \Gamma \left( \frac{\nu + 1}{2} \right) }{ \Gamma \left( \frac{\nu}{2} \right) \sqrt{\nu \pi} \left( 1 + \frac{t^2}{\nu} \right)^{\frac{\nu + 1}{2}} }
 $$
 
-This is the standard **Student's t-distribution** with $\nu$degrees of freedom.
+This is the standard **Student's t-distribution** with $\nu$ degrees of freedom.
