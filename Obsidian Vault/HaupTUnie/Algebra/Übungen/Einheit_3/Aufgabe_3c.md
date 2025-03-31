@@ -7,3 +7,5 @@
    (Also $\lvert T \rvert > 1$ und $T \neq H$.)
 
 3. **Zeigen Sie (für alle Gruppen): Wenn die Menge der Torsionselemente eine Untergruppe ist, dann ist sie sogar ein Normalteiler.**
+
+---

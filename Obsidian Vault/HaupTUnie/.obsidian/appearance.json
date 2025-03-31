@@ -1,7 +1,7 @@
 {
-  "cssTheme": "Things",
+  "cssTheme": "Typora-Vue",
   "accentColor": "#2a4f11",
   "theme": "moonstone",
   "interfaceFontFamily": "FreeSerif,Berenis ADF Pro Math",
-  "textFontFamily": "DejaVu Serif"
+  "textFontFamily": "DejaVu Serif,FreeSerif"
 }
