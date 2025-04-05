@@ -2,27 +2,34 @@
 **Datum:** 07.03.2025
 
 - **Definiere eine Menge:**  
-  $M : \{n \in \mathbb{N}\}$  
-  $U \in M$  
-  Wenn $(n \in M) \implies (n+1 \in M)$  
-
-  Dann $M = \mathbb{N}$
-
+-
+  $$\begin{rcases}
+E(n), \quad M : \{n \in \mathbb{N}\}  \\
+E(0),  \quad U \in M  \\
+\forall n \in \mathbb{N} E(n) \Rightarrow E(n+1), \quad \text{Wenn } (n \in M) \implies (n+1 \in M)
+\end{rcases} 
+\text{ dann M } = \mathbb{N}
+$$
 ---
 
 ### Supremum
-- $A \subseteq B$, $|A| = n \implies |A| = 0 \implies B = \emptyset$, $B \in A$  
-- $|A| = n+1 \implies k, j \in \mathbb{N}$, $j \leq n \implies B$ aufsteigend sortiert $(a_0, a_1, \ldots, a_n)$  
-- $|A| = 0$  
-  - $\emptyset \in U$  
-- $|A| = 1$  
-  - $|A'| = 0$  
-- $|A| = 2$  
-  - $|A'| = 1$  
+1. Sei $f: A \to B$.  
+   - $|A| = n+1$, $|B| = m$, $|A \cap B| = k$.  
+   - Dann gilt:  
+     $$ |A \cup B| = |A| + |B| - |A \cap B| $$  
+
+2. Injektivität und Surjektivität:  
+   - Wenn $f: A \to B$ injektiv ist, dann:  
+     $$ |A| \leq |B| $$  
+   - Wenn $f: A \to B$ surjektiv ist, dann:  
+     $$ |A| \geq |B| $$  
+
+3. Wenn $f: A \to B$ bijektiv ist, dann:  
+   $$ |A| = |B| $$
 
 ---
 
-### Goldstroms Lieblingsturmel
+### Goldsterns Lieblingsformel
 
 1. $x^2 = 1 \implies x = \pm 1 \implies (x - 1)(x + 1) = 0$
 2. In $\mathbb{Z}$:
