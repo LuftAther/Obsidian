@@ -40,7 +40,7 @@ Let $Y = X^2$. Then $Y \sim \chi^2(1)$, which is a chi-squared distribution with
 Wir setzen $Y = X^2 \sim \chi^2(1)$.
 
 The chi-squared distribution with 1 degree of freedom is equivalent to a Gamma distribution with parameters:
-![[chi.png|400]]
+![[HaupTUnie/Statistik/Koppensteiner_Leonie_12006422_HW1/chi.png|400]]
 $$
 \chi^2(1) \overset{d}{=} \text{Gamma}(\alpha = \tfrac{1}{2}, \, \beta = 2)
 $$
