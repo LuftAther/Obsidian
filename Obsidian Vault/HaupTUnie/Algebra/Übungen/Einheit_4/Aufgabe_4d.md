@@ -3,6 +3,65 @@
 ---
 
 #### **Teil 1:**  
+$f_g: X \to X, \, x \mapsto g \cdot x \)
+
+**Zu zeigen:**  
+$f_g$ist eine Bijektion und $g \mapsto f_g$ist ein $\text{Hom}(G) \).
+
+---
+
+## (1) Sei für $g \in G$$f_g: X \to X, \, x \mapsto g \cdot x$und $X^0$Gruppe der Permutationen von $X \).
+
+### Zu zeigen:
+
+1.1. $f_g$ist Bijektion.  
+1.2. $g \mapsto f_g \in \text{Hom}(G, X^0) \).  
+
+---
+
+### **1.1.1. Injektivität**
+
+Betrachte $f_g(x) = f_g(y) \implies g \cdot x = g \cdot y \).  
+Da $G$eine Gruppe ist, gibt es zu jedem $g \in G$ein Inverses $g^{-1} \), so dass:  
+$$
+g^{-1} \cdot (g \cdot x) = x \quad \text{und} \quad g^{-1} \cdot (g \cdot y) = y
+$$
+$$
+\implies x = y
+$$
+
+---
+
+### **1.1.2. Surjektivität**
+
+Für jedes $y \in X$existiert ein $x \in X$so dass $y = g \cdot x \).  
+
+Wähle $x = g^{-1} \cdot y \implies y = g \cdot x \).
+
+*Im Grunde haben wir aufgrund des Inversen in einer Gruppe eine eindeutige Inverse Funktion $\implies$Bijektiv.*
+
+---
+
+## **1.2.** $g \mapsto f_g$ist ein Homomorphismus von $G \to X^0: g \mapsto f_g \).
+
+$$
+f_{gh}(x) = (gh) \cdot x = g \cdot (h \cdot x) = f_g(f_h(x))
+$$
+
+$$
+f_{gh} = f_g \circ f_h \implies \Psi(gh) = \Psi(g) \circ \Psi(h)
+$$
+
+$\{ g x : x \in X \} \)
+
+**Bemerkung:** Der Beweis ist abgeschlossen.
+
+---
+
+## Kommentare:
+
+- $G$ist eine Gruppe, weil $G$der erste Buchstabe von *Gruppe* ist und die Gruppenoperation als Abbildung von einer Gruppe definiert ist.  
+- Wo der Faktor $y$steht, geht der Beweis genauso hypothetisch weiter.  
 
 Für $g \in G$, definiere $f_g : X \to X$ durch $x \mapsto g \circ x$.
 

@@ -156,3 +156,6 @@ $$\varphi: \mathbb Z_2 \to \text{Aut}(\mathbb Z_4): \left\{\begin{array}{cc}
 Betrachte weiters $(3_A,1_B)\in G$ und $(0_A, 1_B) \in \{0_A\}\times B$. Wir beobachten, dass
 $$(3_A, 1_B) \rtimes (0_A, 1_B) \rtimes \star(3_A,1_B) = (3_A, 1_B) \rtimes (0_A, 1_B) \rtimes (\varphi_{-1_B}(-3_A),-1_B) $$
 $$ = (3_A + \varphi_{1_B}(0_A), 1_B + 1_B) \rtimes (3_A, 1_B) = (3_A, 0_B)\rtimes (3_A,1_B) = (3_A + \varphi_{0_B}(3_A), 0_B+1_B) $$$$ = (3_A+3_A, 1_B ) = (2_A,1_B)\notin \{0_A\}\times B$$
+zusammengearbeitet mit:
+Sandra Hörtnagel
+12124470

@@ -1,5 +1,3 @@
-### Aufgabe 4c.
-
 Sei $n = td$. Zeigen Sie, dass die zyklische Gruppe $\mathbb{Z}_n = \mathbb{Z}/n\mathbb{Z}$genau eine Untergruppe mit $t$Elementen hat, nämlich die von $d + n\mathbb{Z}$erzeugte.  
 (Das folgt aus Satz 3.2.4.15. Geben Sie einen Beweis, der sich nicht einfach auf diesen Satz verlässt.)  
 Finden Sie alle Untergruppen von $\mathbb{Z}_{40}$.
@@ -79,4 +77,6 @@ Mit de, Satz von Lagrange und Aufgabe 1 erhalten wir
       Z_5 = \{[0]_{40}, [10]_{40}, [20]_{40}, [30]_{40}\} &|G_5| = 4 \\
       Z_6 = \{[0]_{40}, [20]_{40}\} &|G_6| = 2 \\
        Z_7 = \{[0]_{40}\} &|G_7| = 1 \\
- \end{array}$$
+ \end{array}$$zusammengearbeitet mit:
+Sandra Hörtnagel
+12124470

@@ -102,3 +102,6 @@ $$
 
 ---
 
+zusammengearbeitet mit:
+Sandra Hörtnagel
+12124470
