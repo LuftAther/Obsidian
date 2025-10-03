@@ -12,6 +12,6 @@ Problems.
 <!--ID: 1759335977355-->
 
 ## 1.4 Definition (Korrekter Algotithmus) #flashcard 
-Ein Algorithmus heißt korrekt, wenn er für jede Instanz mit korrekter
-Ausgabe terminiert.
+Ein Algorithmus heißt korrekt, wenn er für jede **Instanz mit korrekter
+Ausgabe terminiert**.
 <!--ID: 1759336166130-->
