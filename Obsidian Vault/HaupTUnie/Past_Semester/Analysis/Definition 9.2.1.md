@@ -1,0 +1,1 @@
+Zwei Normen $\|.\|_1$ und $\|.\|_2$ auf einem linearen Raum $X$ heißen ==äquivalent==, falls es Konstanten $\alpha > 0$ und $\beta > 0$ gibt, sodass $$ \alpha \|x\|_1 \leq \|x\|_2 \leq \beta \|x\|_1 \quad \text{für alle } x \in X. $$

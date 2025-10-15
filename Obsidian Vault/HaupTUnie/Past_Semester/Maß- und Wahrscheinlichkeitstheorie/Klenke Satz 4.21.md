@@ -1,0 +1,3 @@
+# Lemma von Fatou
+Seien $f \in L^1(\mu)$ und $f_1, f_2, \ldots$ messbar mit $f_n \geq f$ f\"u\"r jedes $n \in \mathbb{N}$. Dann gilt $$ \int \left( \liminf_{n \to \infty} f_n \right) d\mu \leq \liminf_{n \to \infty} \int f_n d\mu. $$# Beweis:
+Indem wir $(f_n - f)_{n \in \mathbb{N}}$ betrachten, k\"onnen wir annehmen, dass $f_n \geq 0$ f\"u\"r jedes $n \in \mathbb{N}$. Setze $$ g_n := \inf_{m \geq n} f_m. $$ Dann gilt $g_n \uparrow \liminf_{m \to \infty} f_m$, also nach dem Satz von der monotonen Konvergenz ([[Klenke Lemma 4.6]](ii)) sowie der Monotonie $g_n \leq f_n$ (also $\int g_n d\mu \leq \int f_n d\mu$) $$ \int \liminf_{n \to \infty} f_n d\mu = \lim_{n \to \infty} \int g_n d\mu \leq \liminf_{n \to \infty} \int f_n d\mu. $$

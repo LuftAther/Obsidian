@@ -1,0 +1,9 @@
+Sei $(E, d)$ ein separabler, metrischer Raum. 
+Damit die Folge $(f_n)_{n \in \mathbb{N}}$ messbarer Abbildungen $\Omega \to E$ fast überall konvergiert, ist es hinreichend, dass eine der folgenden Bedingungen gilt: 
+-  (i) Es gilt $E = \mathbb{R}$, es gibt ein $p \in [1, \infty)$ mit $f_n \in L^p(\mu)$ für jedes $n \in \mathbb{N}$, und es gibt ein $f \in L^p(\mu)$ mit $\sum_{n=1}^{\infty} \| f_n - f \|_p < \infty$.
+- (ii) Es gibt ein messbares $f$ mit  $\sum_{n=1}^{\infty} \mu(A \cap \{ d(f, f_n) > \epsilon \}) < \infty$ für jedes $\epsilon > 0$ und für jedes $A \in \mathcal{A}$ mit $\mu(A) < \infty$. 
+- (iii) $E$ ist vollständig, und es gibt eine summierbare Folge $(\epsilon_n)_{n \in \mathbb{N}}$, sodass $\sum_{n=1}^{\infty} \mu(A \cap \{ d(f_n, f_{n+1}) > \epsilon_n \}) < \infty$ für jedes $A \in \mathcal{A}$ mit $\mu(A) < \infty$. 
+In allen Fällen gilt $f_n \xrightarrow{n \to \infty} f$ fast überall. 
+
+# Beweis
+Offenbar impliziert (i) schon (ii), denn nach der Markovschen Ungleichung ist $\mu(\{ |f - f_n| > \epsilon \}) \leq \epsilon^{-p} \| f - f_n \|_p^p.$ Nach Bemerkung 6.3 reicht es, den Fall $\mu(\Omega) < \infty$ zu betrachten. Gelten nun (ii) und sei $B_n(\epsilon) = \{ d(f, f_n) > \epsilon \}$ und $B(\epsilon) = \limsup_{n \to \infty} B_n(\epsilon)$. Das Lemma von Borel-Cantelli liefert $\mu(B(\epsilon)) = 0$. Sei $N = \bigcup_{n=1}^{\infty} B(1/n)$. Dann gilt $\mu(N) = 0$ und $f_n(\omega) \xrightarrow{n \to \infty} f(\omega)$ für jedes $\omega \in \Omega \setminus N$. Gelte nun (iii). Sei $B_n = \{ d(f_n, f_{n+1}) > \epsilon_n \}$ und $B = \limsup_{n \to \infty} B_n$. Dann ist $\mu(B) = 0$, und für jedes $\omega \in \Omega \setminus B$ ist $(f_n(\omega))_{n \in \mathbb{N}}$ eine Cauchy-Folge in $E$. Da $E$ vollständig ist, existiert der Limes $f(\omega) := \lim_{n \to \infty} f_n(\omega)$. Für $\omega \in B$ setze $f(\omega) = 0$.
